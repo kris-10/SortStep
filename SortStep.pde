@@ -43,6 +43,7 @@ public void insertionSortTest()
   watch.stop();
   System.out.println("Insertion Sort took " +watch.elapsedTime()/1000 + " microseconds");
 }
+
 public void mergeSortTest()
 {
   System.out.println("Testing Merge Sort");
@@ -59,5 +60,3 @@ private void fillArray(int numInts, int largestInt)
   {
     myArray[loop] = (int)(Math.random()*largestInt + 1);
   }
-}
-
